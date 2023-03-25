@@ -1,18 +1,23 @@
-body{
-    font-family: "Poppins", sans-serif;
-background-color: rgb(36, 29, 79)
-;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(39, 32, 68);
+  margin: 0;
+  padding: 0;
 }
-.container{
-    max-width: 1400px;
-    margin:0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
     url("../images/bay.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color:blanchedalmond;
+  color: blanchedalmond;
   text-align: center;
   padding: 260px 0;
 }
@@ -20,51 +25,135 @@ header h1 {
   font-weight: 700;
   font-size: 96px;
   line-height: 1;
-  margin:30px 0;
+  margin: 30px 0;
 }
-header h2{
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.5;
-    margin:30px 0;
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 30px 0;
 }
-header h3{
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 1.5;
-    letter-spacing: 5px;
-    margin:0;
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
 }
 header a {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.5;
-    padding:16px 32px;
-    margin-top:32px;
-    text-align: center;
-    letter-spacing: 3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: blanchedalmond;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 16px 32px;
+  margin-top: 32px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: blanchedalmond;
+}
+footer {
+  color: blanchedalmond;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.6),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url("../images/skyscrapers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px 0px 0px;
+}
+footer button {
+  color: blanchedalmond;
+  border: none;
+  background: none;
+  padding: 0;
+  transition: all 200ms ease-in-out;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  opacity:0.6
+}
+footer button:hover {
+  text-decoration: underline;
+  color:#DA4167;
+}
+footer h3{
+  
+    font-size: 22px;
+    line-height: 30%;
+}
+footer li {
+  list-style-type: none;
+  padding: 0;
+  
+ 
+  
+}
+
+footer p{
+    font-size: 16px;
+    opacity:0.6;
+
+}
+footer ul {
+  padding: 0;
+}
+footer .row {
+  display: grid;
+grid-template-columns: 1fr 2fr 1fr;
 
 
 }
-
-@media (max-width:800px) {
-header{
-    padding:60px 0;
+footer div{
+    margin-right: 20px;
 }
-header h1{
+footer .social-links a {
+  margin: 0 20px;
+  color: white;
+  
+  background-color: #DA4167;
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: #DA4167;
+  background-color: blanchedalmond;
+}
+footer .fa-solid {
+  margin-bottom: 30px;
+}
+footer a {
+  color: blanchedalmond;
+ 
+  text-decoration: none;
+  
+
+}
+footer a:hover {
+  color: #DA4167;
+  text-decoration: underline;
+}
+small a{
+    background-color: rgba(39, 32, 68);
+
+}
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
     font-size: 48px;
-}
-header h2{
+  }
+  header h2 {
     font-size: 20px;
-}
-header h3{
+  }
+  header h3 {
     font-size: 12px;
-}
-header a{
-    padding:8px 10px;
+  }
+  header a {
+    padding: 8px 10px;
     font-size: 11px;
-}
+  }
 }
