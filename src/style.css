@@ -11,6 +11,7 @@ body {
 section {
   max-width: 1100px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
@@ -52,6 +53,41 @@ header a {
   text-transform: uppercase;
   background-color: blanchedalmond;
 }
+main {
+  background-color: white;
+}
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+.main {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 footer {
   color: blanchedalmond;
   background-image: linear-gradient(
@@ -61,7 +97,6 @@ footer {
     url("../images/skyscrapers.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 60px 0px 0px 0px;
 }
 footer button {
   color: blanchedalmond;
@@ -71,53 +106,56 @@ footer button {
   transition: all 200ms ease-in-out;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  opacity:0.6
+  opacity: 0.6;
 }
 footer button:hover {
   text-decoration: underline;
-  color:#DA4167;
+  color: #da4167;
 }
-footer h3{
-  
-    font-size: 22px;
-    line-height: 30%;
+footer h3 {
+  font-size: 22px;
+  line-height: 30%;
 }
 footer li {
   list-style-type: none;
   padding: 0;
-  
- 
-  
 }
 
-footer p{
-    font-size: 16px;
-    opacity:0.6;
-
+footer p {
+  font-size: 16px;
+  opacity: 0.6;
 }
 footer ul {
   padding: 0;
 }
-footer .row {
-  display: grid;
-grid-template-columns: 1fr 2fr 1fr;
-grid-gap:64px;
-
-
+.grid-3-columns-with-first-narrow{
+  grid-template-columns: 1fr 2fr 1fr;
 }
-
+.grid-2-columns {
+  grid-template-columns: auto auto;
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+.img-responsive{
+  max-width:100%;
+}
+.p1{
+  margin:0;
+}
 footer .social-links a {
   margin: 0 20px;
   color: white;
-  
-  background-color: #DA4167;
+
+  background-color: #da4167;
   padding: 10px 16px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover {
-  color: #DA4167;
+  color: #da4167;
   background-color: blanchedalmond;
 }
 footer .fa-solid {
@@ -125,22 +163,19 @@ footer .fa-solid {
 }
 footer a {
   color: blanchedalmond;
- 
-  text-decoration: none;
-  
 
+  text-decoration: none;
 }
 footer a:hover {
-  color: #DA4167;
+  color: #da4167;
   text-decoration: underline;
 }
-small{
-    text-align: center;
-    display:block;
+small {
+  text-align: center;
+  display: block;
 }
-small a{
-    background-color: rgba(39, 32, 68);
-
+small a {
+  background-color: rgba(39, 32, 68);
 }
 @media (max-width: 800px) {
   header {
@@ -154,6 +189,13 @@ small a{
   }
   header h3 {
     font-size: 12px;
+  }
+  .grid{
+    grid-template-columns: 1fr;
+    grid-gap:32px;
+  }
+  section{
+    padding:30px;
   }
   header a {
     padding: 8px 10px;
