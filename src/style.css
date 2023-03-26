@@ -101,12 +101,11 @@ footer ul {
 footer .row {
   display: grid;
 grid-template-columns: 1fr 2fr 1fr;
+grid-gap:64px;
 
 
 }
-footer div{
-    margin-right: 20px;
-}
+
 footer .social-links a {
   margin: 0 20px;
   color: white;
