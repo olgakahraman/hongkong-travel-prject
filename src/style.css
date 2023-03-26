@@ -135,6 +135,10 @@ footer a:hover {
   color: #DA4167;
   text-decoration: underline;
 }
+small{
+    text-align: center;
+    display:block;
+}
 small a{
     background-color: rgba(39, 32, 68);
 
