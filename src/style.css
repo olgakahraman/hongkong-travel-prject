@@ -19,7 +19,7 @@ section.secondary {
 .purple{
   background-color:#272044 ;
 
-  padding:60px;
+  padding:80px ;
 }
 .purple h3{
   color:white;
@@ -87,7 +87,7 @@ main h2 {
   color: #272044;
   opacity: 0.3;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 20px 0;
   letter-spacing: 5px;
   
 }
@@ -146,6 +146,9 @@ main p {
   width:100%;
   aspect-ratio: 1/1;
 
+}
+.instagram-embeds{
+  margin:30px 0;
 }
 .card-body{
   padding:30px;
@@ -261,6 +264,18 @@ footer a:hover {
     grid-template-columns: 1fr;
    
   }
+  .glance{
+padding:0;
+margin:0;
+  }
+  .purple .padding{
+    text-align: center;
+    padding:0;
+    margin:0;
+  }
+  .purple h4{
+    font-size: 20px;
+  }
   section {
     padding: 30px;
   }
@@ -273,6 +288,9 @@ footer a:hover {
   }
   .embed{
     aspect-ratio: 16/9;
+  }
+  .instagram-embeds{
+    margin:20px 0;
   }
   .grid-3-columns{
     grid-gap:0;
