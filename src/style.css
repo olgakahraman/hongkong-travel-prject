@@ -173,7 +173,7 @@ main p {
   padding:16px;
   background-color: #462cb3;
   text-decoration: none;
-  transition: all 20ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 .btn:hover{
   background-color: white;
