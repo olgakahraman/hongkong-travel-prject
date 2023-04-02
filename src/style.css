@@ -238,7 +238,7 @@ footer a:hover {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+   
   }
   section {
     padding: 30px;
@@ -249,5 +249,11 @@ footer a:hover {
   }
   main h3{
     font-size: 25px;
+  }
+  .embed{
+    aspect-ratio: 16/9;
+  }
+  .grid-3-columns{
+    grid-gap:0;
   }
 }
